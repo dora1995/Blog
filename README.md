@@ -9,13 +9,30 @@ Keep learning
 
 [JavaScript上下文相关的总结](https://github.com/dora1995/Blog/issues/5)
 
+[web事件总结](https://github.com/dora1995/Blog/issues/6)
+
+[正则表达式的总结](https://github.com/dora1995/Blog/issues/7)
+
+[Vue生命周期总结](https://github.com/dora1995/Blog/issues/8)
+
+[前端跨域相关的总结](https://github.com/dora1995/Blog/issues/9)
+
+[前端客户端缓存相关的总结](https://github.com/dora1995/Blog/issues/10)
+
+
 ### 2.前端安全
 
 [前端安全总结之XSS](https://github.com/dora1995/Blog/issues/2)
 
 [前端安全总结之CSRF](https://github.com/dora1995/Blog/issues/3)
 
+### 3.HTTP
 
+[TCP三次握手与四次挥手](https://github.com/dora1995/Blog/issues/11)
+
+[图解HTTP笔记](https://github.com/dora1995/Blog/issues/12)
+
+[图解HTTP-HTTPS笔记](https://github.com/dora1995/Blog/issues/13)
 
 ---------------------------
 
