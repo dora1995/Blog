@@ -1,0 +1,53 @@
+字符串是 Python 中最常用的数据类型。我们可以使用引号( ' 或 " )来创建字符串
+
+创建字符串很简单，只要为变量分配一个值即可
+```python
+s1 = 'hello world'
+```
+
+python不支持单字符类型，在读取时可以通过使用方括号和下标的方式来截取字符串
+
+### 字符串运算
+- + 字符串连接
+- * 重复输出字符串
+- [] 通过下标获取字符串中字符
+- [:] 截取字符串的一部分，左闭右开
+- in 成员运算符 包含
+- not in 不包含
+- % 格式字符串
+
+### 字符串格式化
+```python
+print('我叫 %s 今年 %d 岁' % ('小明', 10))
+```
+
+- %c 格式化字符及ASCII码
+- %s 格式化字符串
+- %d 格式化整数
+- %u 格式化无符号整型
+- %f 格式化浮点数字
+
+### 字符串块
+使用三引号
+
+### 字符串常用函数
+- capitalize 将字符串的第一个字符转换为大写
+- center（width，fillchar） 返回一个指定宽度居中的字符串，fillchar为填充的字符
+- count（str，beg=0，end=len） 返回str在string里面出现的次数
+- endswith（suffix，beg=0，end=length） 检查字符串是否以obj结束
+- find（str，beg=0，end=len） 检测str是否包含在字符串中
+- index（str， beg=0，end=len）同上
+- join（seq） 以指定字符串作为分隔符，将seq中所有的元素合并成为一个新的字符串
+- len（string） 返回字符串长度
+- ljust（sidth，[fillchar]） 返回一个原字符串左对齐，并使用fillchar填充至长度width的新字符串
+- lower 转换字符串中所有大写字符为小写
+- lstrip 截掉字符串左边的空格或指定字符
+- replace（old，new[, max]） 将字符串中的old换成new，不超过max次
+- rindex 同index，从右边开始
+- rstrip 删除字符串末尾的空格
+- split（str='',num=string.count(str)） 以str为分隔符截取字符串，如果num有指定，则只截取num+1个子字符串
+- startswith
+- strip 去除两边的空格或指定字符
+- swapcase 将大写转为小写，小写转为大写
+- upper 转为大写
+- zfill（width） 返回长度为width的字符串，右对齐，填充0
